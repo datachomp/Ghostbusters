@@ -1,0 +1,17 @@
+﻿@model Ghostbusters.Web.Models.SidebarViewModel
+<div class="span-4 last">
+<h4>Top Sellers</h4>
+<ul>
+	@foreach (var ghost in Model.Ghosts)
+	{ 
+		<li>@ghost</li>
+	}
+</ul>
+<h4>Working Vehicles</h4>
+<ul>
+@foreach (var car in Model.Cars)
+	{ 
+		<li>@car</li>
+	}
+</ul>
+</div>

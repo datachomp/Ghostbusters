@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    
+	<!-- blueprint screen Stylesheet -->
+	@HTML.BPCSS("screen.css")
+	<!-- blueprint print Stylesheet -->
+	@HTML.BPPRINTCSS("print.css")
+	
+	<!-- Import fancy-type plugin. -->
+	@HTML.BPCSS("plugins/fancy-type/screen.css")
+
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/overcast/jquery-ui.css" type="text/css" media="screen, projection">
+
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="@Url.Content("~/public/css/blueprint/ie.css")" type="text/css" media="screen, projection">
+	<![endif]-->
+
+	@HTML.jQuery()
+
+	@MvcMiniProfiler.MiniProfiler.RenderIncludes()
+</head>
+<body>
+<div class="container">
+<div class="span-20"><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GhostBusters Super App</h1><hr/>
+<h3 class="alt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Something strange...in your data-hood</h3><hr/></div>
+<div class="span-4">@Html.ActionLink("Home", "Index","Home")<br /></div>
+
+<div class="span-16 last">
+            @RenderBody()
+</div>
+
+	<div class="span-20"><hr />
+	<center>copyright 2011 IdeasRun </center>
+	</div>
+</div>
+</body>
+</html>

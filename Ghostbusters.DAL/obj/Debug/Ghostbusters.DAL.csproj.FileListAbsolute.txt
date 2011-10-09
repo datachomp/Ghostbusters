@@ -1,0 +1,5 @@
+C:\_Git\Ghostbusters\Ghostbusters.DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\_Git\Ghostbusters\Ghostbusters.DAL\bin\Debug\Ghostbusters.DAL.dll
+C:\_Git\Ghostbusters\Ghostbusters.DAL\bin\Debug\Ghostbusters.DAL.pdb
+C:\_Git\Ghostbusters\Ghostbusters.DAL\obj\Debug\Ghostbusters.DAL.dll
+C:\_Git\Ghostbusters\Ghostbusters.DAL\obj\Debug\Ghostbusters.DAL.pdb

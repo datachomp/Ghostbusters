@@ -1,0 +1,34 @@
+﻿@model Ghostbusters.Web.Models.HomeViewModel
+@{
+	ViewBag.Title = "Home Page";
+}
+
+<div class="span-12">
+<h2>Find Something Please:</h2>
+<p>
+@using (Html.BeginForm())
+{
+	<input id="Users" name = "Searchy" type="text" value="" /><br />
+	<input id="isGhost" type="checkbox" checked="checked" >Ghosts</input><br />
+	@*<input id="isVehicle" type="checkbox" checked="checked" >Vehicles</input><br />*@
+	
+	<input id="Submit1" type="submit" value="Bring it" />
+}<br/>
+</p>
+<p>
+@if (Model.searchy != null)
+{
+	foreach (var search in Model.searchy)
+	{
+	  @: @search.SearchName  is a @search.GroupType<br />
+	}
+}
+else
+{
+	@: Lets Get started
+}
+
+</p>
+</div>
+
+@{ Html.RenderAction("FrontPage", "Sidebar");}

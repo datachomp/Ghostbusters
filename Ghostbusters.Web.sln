@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghostbusters.Web", "Ghostbusters.Web\Ghostbusters.Web.csproj", "{BCE4CD6C-CFA0-4C18-ADDB-BD47C4F0D43A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghostbusters.Test", "..\Ghostbusters.Test\Ghostbusters.Test.csproj", "{0494D428-A7CB-4ED2-80BD-12A079BFA2D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghostbusters.DAL", "Ghostbusters.DAL\Ghostbusters.DAL.csproj", "{AB7BD30C-2941-474D-9559-0B09194F42B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE4CD6C-CFA0-4C18-ADDB-BD47C4F0D43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE4CD6C-CFA0-4C18-ADDB-BD47C4F0D43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE4CD6C-CFA0-4C18-ADDB-BD47C4F0D43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE4CD6C-CFA0-4C18-ADDB-BD47C4F0D43A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0494D428-A7CB-4ED2-80BD-12A079BFA2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0494D428-A7CB-4ED2-80BD-12A079BFA2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0494D428-A7CB-4ED2-80BD-12A079BFA2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0494D428-A7CB-4ED2-80BD-12A079BFA2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7BD30C-2941-474D-9559-0B09194F42B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7BD30C-2941-474D-9559-0B09194F42B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7BD30C-2941-474D-9559-0B09194F42B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7BD30C-2941-474D-9559-0B09194F42B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
