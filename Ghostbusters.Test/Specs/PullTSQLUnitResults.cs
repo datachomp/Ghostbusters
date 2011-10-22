@@ -23,7 +23,7 @@ public class PullTSQLUnitResults : TestBase
 		connection.Open();
 		return connection;
 	}
-	/*
+	
 	[Test]
 	public void Run_TSQLUNITTest_And_Check_Results()
 	{
@@ -60,7 +60,7 @@ public class PullTSQLUnitResults : TestBase
 		//Assert.AreEqual(pass, 0);
 	 
 	}
-	*/
+	
 
 }
 }
