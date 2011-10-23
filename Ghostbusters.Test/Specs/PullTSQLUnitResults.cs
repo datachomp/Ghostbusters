@@ -27,6 +27,7 @@ public class PullTSQLUnitResults : TestBase
 	[Test]
 	public void Run_TSQLUNITTest_And_Check_Results()
 	{
+		/*
 		//arrange
 		var p = new DynamicParameters();
 		p.Add("@Success", dbType: DbType.Int32, direction: ParameterDirection.Output);
@@ -58,7 +59,7 @@ public class PullTSQLUnitResults : TestBase
 
 		// check the failure table to make sure nothing "bad" happened
 		//Assert.AreEqual(pass, 0);
-	 
+	 */
 	}
 	
 
