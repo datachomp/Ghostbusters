@@ -21,3 +21,4 @@ C:\_Git\Ghostbusters\Ghostbusters.Test\bin\Debug\MvcMiniProfiler.pdb
 C:\_Git\Ghostbusters\Ghostbusters.Test\bin\Debug\MvcMiniProfiler.xml
 C:\_Git\Ghostbusters\Ghostbusters.Test\obj\Debug\Ghostbusters.Test.dll
 C:\_Git\Ghostbusters\Ghostbusters.Test\obj\Debug\Ghostbusters.Test.pdb
+C:\_Git\Ghostbusters\Ghostbusters.Test\bin\Debug\Ghostbusters.Test.dll.config

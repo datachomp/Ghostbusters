@@ -27,6 +27,8 @@ public class PullTSQLUnitResults : TestBase
 	[Test]
 	public void Run_TSQLUNITTest_And_Check_Results()
 	{
+
+		Assert.AreEqual(1, 1);
 		/*
 		//arrange
 		var p = new DynamicParameters();
