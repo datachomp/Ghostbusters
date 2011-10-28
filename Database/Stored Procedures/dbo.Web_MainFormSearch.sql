@@ -28,7 +28,7 @@ BEGIN
 		WHERE GhostName like @SearchTerm'
 END
 
-/*
+
 IF @SearchVehicles = 1
 BEGIN
 SET @sql = @sql + ' union all '
@@ -36,12 +36,13 @@ SET @Sql = @sql + 'SELECT VehicleName AS SearchName, ''Vehicles'' AS GroupType
 	FROM dbo.Vehicles WHERE InService=1 and VehicleName like @SearchTerm'
 
 END
-*/
+
 
 --PRINT @sql
 --EXEC sp_Executesql @Sql, N'@empname varchar(50), @GhostName varchar(50)', @SearchTerm, @SearchTerm
 EXEC sp_Executesql @Sql, N'@SearchTerm varchar(50)', @SearchTerm
 GO
+
 
 GRANT EXECUTE ON  [dbo].[Web_MainFormSearch] TO [DemoApp]
 GO
