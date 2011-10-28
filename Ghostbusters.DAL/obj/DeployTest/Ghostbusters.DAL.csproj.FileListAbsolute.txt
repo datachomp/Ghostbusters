@@ -1,0 +1,5 @@
+C:\_Git\Ghostbusters\Ghostbusters.DAL\bin\DeployTest\Ghostbusters.DAL.dll
+C:\_Git\Ghostbusters\Ghostbusters.DAL\bin\DeployTest\Ghostbusters.DAL.pdb
+C:\_Git\Ghostbusters\Ghostbusters.DAL\obj\DeployTest\ResolveAssemblyReference.cache
+C:\_Git\Ghostbusters\Ghostbusters.DAL\obj\DeployTest\Ghostbusters.DAL.dll
+C:\_Git\Ghostbusters\Ghostbusters.DAL\obj\DeployTest\Ghostbusters.DAL.pdb

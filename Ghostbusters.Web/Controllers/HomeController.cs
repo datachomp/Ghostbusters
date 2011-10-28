@@ -39,7 +39,7 @@ namespace Ghostbusters.Web.Controllers
 			//bool isVehicle = Convert.ToBoolean(collecty["isVehicle"]);
 			var profiler = MiniProfiler.Current; // it's ok if this is null
 
-			var favorite = idataRepository.GetSearchResults("%"+searchTerm+"%", isGhost, false);
+			var favorite = idataRepository.GetSearchResults("%"+searchTerm+"%", isGhost, true);
 			//var favorite = idataRepository.GetSearchResults("%" + searchTerm + "%", isGhost, isVehicle);
 
 			var viewmodel = new HomeViewModel

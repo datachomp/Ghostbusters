@@ -238,6 +238,7 @@
   <ItemGroup>
     <Content Include="Web.DeployTest.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
