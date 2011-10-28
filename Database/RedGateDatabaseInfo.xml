@@ -47,7 +47,11 @@
     <DataWriteAllFilesInOneDirectory>true</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>4</Count>
+    <DataFile>dbo.ContainmentUnits_Data.sql</DataFile>
+    <DataFile>dbo.Employees_Data.sql</DataFile>
+    <DataFile>dbo.Ghosts_Data.sql</DataFile>
+    <DataFile>dbo.Vehicles_Data.sql</DataFile>
   </DataFileSet>
   <ExtendedProperties />
 </DatabaseInformation>
